@@ -59,12 +59,12 @@ export default function Certifications() {
             <p>Credential ID CXWCWYKX5Q7MF</p>
           </Details>
         </Certificate>
-        <Certificate href="https://www.hackerrank.com/certificates/82fc7e1326d4">
-          <SiHackerrank />
+        <Certificate href="https://coursera.org/share/5aeec208a33e1668460959464c09f340">
+          <SiCoursera />
           <Details>
-            <h3>React (Basic)</h3>
-            <p>HackerRank</p>
-            <p>Credential ID 82FC7E1326D4</p>
+            <h3>Machine Learning</h3>
+            <p>Coursera</p>
+            <p>Credential ID 2NAJL2GYH8XD</p>
           </Details>
         </Certificate>
       </Certification>

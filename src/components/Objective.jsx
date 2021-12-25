@@ -18,7 +18,7 @@ export default function Objective() {
       </Heading>
       <Container>
         I am a passionate learner with a Computer Science major who is
-        determinant to improve my learning,knowledge, and skills.
+        determinant to improve my learning, knowledge, and skills.
       </Container>
     </>
   );

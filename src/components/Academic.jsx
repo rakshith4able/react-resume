@@ -62,7 +62,7 @@ export default function Academic() {
 
         <GPA>
           <Badge style={{ width: "66px", textAlign: "center" }}>92.00%</Badge>
-          2017-2021
+          2015
         </GPA>
       </College>
     </>
