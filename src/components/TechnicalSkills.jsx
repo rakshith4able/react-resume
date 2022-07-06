@@ -8,8 +8,9 @@ import {
   SiDart,
   SiFlutter,
   SiMaterialui,
-  SiFlask,
+  SiNodedotjs,
   SiMysql,
+  SiMongodb
 } from "react-icons/si";
 
 const Container = styled.div`
@@ -119,8 +120,8 @@ export default function TechnicalSkills() {
               <h3>Flutter</h3>
             </Skill>
             <Skill>
-              <SiFlask />
-              <h3>Flask</h3>
+              <SiNodedotjs />
+              <h3>Node.js</h3>
             </Skill>
             <Skill>
               <SiMaterialui />
@@ -134,6 +135,10 @@ export default function TechnicalSkills() {
             <Skill>
               <SiMysql />
               <h3>MySQL</h3>
+            </Skill>
+            <Skill>
+              <SiMongodb />
+              <h3>MongoDB</h3>
             </Skill>
           </Skills>
         </Languages>

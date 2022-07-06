@@ -50,18 +50,18 @@ export default function Academic() {
         </Name>
 
         <GPA>
-          <Badge style={{ width: "66px", textAlign: "center" }}>96.64%</Badge>
+          <Badge style={{ width: "66px", textAlign: "center" }}>92.00%</Badge>
           2017
         </GPA>
       </College>
       <College>
         <Name>
           <h3>SSLC / 10th Grade</h3>
-          <p>Shastry High School, Hunsur</p>
+          <p>Shastri High School, Hunsur</p>
         </Name>
 
         <GPA>
-          <Badge style={{ width: "66px", textAlign: "center" }}>92.00%</Badge>
+          <Badge style={{ width: "66px", textAlign: "center" }}>96.64%</Badge>
           2015
         </GPA>
       </College>

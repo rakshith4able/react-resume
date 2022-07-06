@@ -74,7 +74,7 @@ export default function Experience() {
           </Badge>
         </Duration>
         <Work>
-          <Point>Designed and developed of responsive websites.</Point>
+          <Point>Designed and developed responsive websites.</Point>
           <Point>
             Developed file security web application based on AES 128bit
             algorithm.

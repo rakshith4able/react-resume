@@ -1,10 +1,10 @@
-import React from "react";
-import Heading from "./Heading";
-import styled from "styled-components";
-import { BsTerminal } from "react-icons/bs";
-import { GoPrimitiveDot, GoLinkExternal } from "react-icons/go";
-import Point, { StyledPoint } from "./Point";
-import Badge from "./Badge";
+import React from 'react';
+import Heading from './Heading';
+import styled from 'styled-components';
+import { BsTerminal } from 'react-icons/bs';
+import { GoPrimitiveDot, GoLinkExternal } from 'react-icons/go';
+import Point, { StyledPoint } from './Point';
+import Badge from './Badge';
 
 const Project = styled.div`
   padding: ${(props) => props.theme.padding.a};
@@ -53,7 +53,7 @@ export default function Projects() {
             <GoPrimitiveDot />
             <h2>Assistive System for Visionless Earthlings using ML</h2>
           </ProjectTitle>
-          <Link href="https://github.com/rakshith4able/Blind-Assistant-App">
+          <Link href='https://github.com/rakshith4able/Blind-Assistant-App'>
             <GoLinkExternal />
           </Link>
         </Header>
@@ -86,52 +86,26 @@ export default function Projects() {
         <Header>
           <ProjectTitle>
             <GoPrimitiveDot />
-            <h2>Fire Gallery</h2>
+            <h2>Data Cipher</h2>
           </ProjectTitle>
-          <Link href="https://rakshith4able.github.io/firebase-photogallery-app/">
+          <Link href='https://data-cipher.herokuapp.com/'>
             <GoLinkExternal />
           </Link>
         </Header>
 
         <Technologies>
-          <Badge>React</Badge>
-          <Badge>Firebase</Badge>
+          <Badge>PHP</Badge>
+          <Badge>AES-128</Badge>
         </Technologies>
 
         <Body>
           <Point>
-            This is a React gallery application with firebase firestore and
-            firebase storage.
+            This is a web application built on top of the AES-128 cryptography
+            algorithm.
           </Point>
           <Point>
-            Application allows to upload images and updates the gallery in real
-            time
-          </Point>
-        </Body>
-      </Project>
-      <Project>
-        <Header>
-          <ProjectTitle>
-            <GoPrimitiveDot />
-            <h2>React Colors</h2>
-          </ProjectTitle>
-          <Link href="https://rakshith4able.github.io/massive-color-project/">
-            <GoLinkExternal />
-          </Link>
-        </Header>
-
-        <Technologies>
-          <Badge>React</Badge>
-        </Technologies>
-
-        <Body>
-          <Point>
-            This is a color picker project and It has functionalities to pick
-            color values in HEX, RGB, and RGBA format.
-          </Point>
-          <Point>
-            It allows to change the intensity of colors and also to choose from
-            different shades of the same color using the slider.
+            It allows users to upload their files and encrypt and decrypt the
+            file using their desired password.
           </Point>
         </Body>
       </Project>
@@ -142,7 +116,7 @@ export default function Projects() {
             <GoPrimitiveDot />
             <h2>LinkedIn Jobs Application Automation</h2>
           </ProjectTitle>
-          <Link href="https://github.com/rakshith4able/Automated-LinkedIn-Jobs_Applying-Bot">
+          <Link href='https://github.com/rakshith4able/Automated-LinkedIn-Jobs_Applying-Bot'>
             <GoLinkExternal />
           </Link>
         </Header>
@@ -160,6 +134,34 @@ export default function Projects() {
           <Point>
             The application allows to apply for all the jobs with single step
             present in the given link.
+          </Point>
+        </Body>
+      </Project>
+
+      <Project>
+        <Header>
+          <ProjectTitle>
+            <GoPrimitiveDot />
+            <h2>React Colors</h2>
+          </ProjectTitle>
+          <Link href='https://rakshith4able.github.io/massive-color-project/'>
+            <GoLinkExternal />
+          </Link>
+        </Header>
+
+        <Technologies>
+          <Badge>React</Badge>
+          <Badge>Chroma.js</Badge>
+        </Technologies>
+
+        <Body>
+          <Point>
+            This is a color picker project and It has functionalities to pick
+            color values in HEX, RGB, and RGBA format.
+          </Point>
+          <Point>
+            It allows to change the intensity of colors and also to choose from
+            different shades of the same color using the slider.
           </Point>
         </Body>
       </Project>
