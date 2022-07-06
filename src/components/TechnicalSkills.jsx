@@ -14,6 +14,7 @@ import {
 } from "react-icons/si";
 
 const Container = styled.div`
+margin:${props=>props.theme.margin} 0;
   display: grid;
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
   justify-content: center;

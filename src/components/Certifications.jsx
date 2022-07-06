@@ -7,7 +7,6 @@ import { SiHackerrank, SiCisco } from 'react-icons/si';
 const Certification = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: flex-end;
   align-items: center;
   padding: ${(props) => props.theme.padding.t};
 `;
@@ -26,10 +25,11 @@ const Certificate = styled.a`
 `;
 
 const Details = styled.div`
-  margin-left: ${(props) => props.theme.padding.a};
+
   display: flex;
   flex-direction: column;
-
+  margin:${props=>props.theme.margin} 0;
+  margin-left: ${(props) => props.theme.padding.a};
   h3 {
     font-size: ${(props) => props.theme.fontSize.h3};
   }

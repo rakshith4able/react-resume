@@ -20,7 +20,7 @@ const Page=styled.div`
   color:${props=>props.theme.text};
   width: auto;
   line-height:1.5;
-  max-width: 816px;
+  max-width: 794px;
   min-width: 320px;
   min-height: 1055px;
   /* max-height: 1150px; */
@@ -32,8 +32,7 @@ function App() {
     <>
     <GlobalStyle/>
     <Resume>
-
-      <Page>
+    <Page>
         <Introduction/>
         <Objective/>
         <Academic/>

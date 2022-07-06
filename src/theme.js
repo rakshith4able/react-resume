@@ -13,11 +13,11 @@ const theme = {
       l:"2px",
       t:"2rem",
     },
-    margin:"3px",
+    margin:"10px",
     fontSize:{
-      h1:"5rem",
+      h1:"4.5rem",
       h2:"1.7rem",
-      h3:"1.3rem",
+      h3:"1.28rem",
       h4:"1rem",
       h5:"1.2rem",
       logo:"4rem"

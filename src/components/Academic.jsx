@@ -8,6 +8,7 @@ const College = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: ${(props) => props.theme.padding.a};
+  margin:${props=>props.theme.margin} 0;
 `;
 
 const Name = styled.div`

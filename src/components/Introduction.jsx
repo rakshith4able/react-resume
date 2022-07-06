@@ -12,6 +12,7 @@ grid-template-areas:"name  name contact"
 grid-template-columns:minmax(min-content,max-content) 1fr 1fr;
 padding:${props=>props.theme.padding.a};
 
+
 &>div:nth-of-type(1){
   grid-area:name;
   & h1{

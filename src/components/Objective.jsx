@@ -7,6 +7,7 @@ const Container = styled.div`
   padding: ${(props) => props.theme.padding.a};
   font-size: ${(props) => props.theme.fontSize.h3};
   font-weight: bold;
+  margin:${props=>props.theme.margin} 0;
 `;
 
 export default function Objective() {

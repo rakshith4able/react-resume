@@ -11,6 +11,7 @@ const Container = styled.div`
   justify-content: space-evenly;
   padding: ${(props) => props.theme.padding.t};
   height: 22.9rem;
+  margin:${props=>props.theme.margin} 0;
 
   & div:nth-of-type(2) {
     justify-content: space-between;

@@ -7,6 +7,7 @@ import { GoPrimitiveDot } from "react-icons/go";
 const Container = styled.div`
   padding: ${(props) => props.theme.padding.t}
     ${(props) => props.theme.padding.a};
+    margin:${props=>props.theme.margin} 0;
 `;
 
 const Point = styled.div`

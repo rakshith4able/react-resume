@@ -10,6 +10,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin:${props=>props.theme.margin} 0;
 `;
 
 const Point = styled.div`
