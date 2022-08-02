@@ -32,7 +32,6 @@ function App() {
     <>
     <GlobalStyle/>
     <Resume>
-
       <Page>
         <Introduction/>
         <Objective/>
