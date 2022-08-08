@@ -13,13 +13,13 @@ const theme = {
       l:"2px",
       t:"2rem",
     },
-    margin:"10px",
+    margin:"15px",
     fontSize:{
       h1:"2.8rem",
-      h2:"1.7rem",
+      h2:"1.35rem",
       h3:"1.28rem",
-      h4:"1rem",
-      h5:"1.2rem",
+      h4:"1.2rem",
+      h5:"1.4rem",
       logo:"4rem"
     }
   };

@@ -9,7 +9,8 @@ const Intro=styled.div`
 display:grid;
 grid-template-areas:"name  name contact"
                     "address  social social";
-grid-template-columns:minmax(min-content,max-content) 2fr 1fr;
+grid-template-columns:minmax(max-content,max-content) 2
+fr 1fr;
 padding:${props=>props.theme.padding.a};
 
 
