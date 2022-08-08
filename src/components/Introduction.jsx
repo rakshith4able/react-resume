@@ -9,7 +9,7 @@ const Intro=styled.div`
 display:grid;
 grid-template-areas:"name  name contact"
                     "address  social social";
-grid-template-columns:minmax(min-content,max-content) 1fr 1fr;
+grid-template-columns:minmax(min-content,max-content) 2fr 1fr;
 padding:${props=>props.theme.padding.a};
 
 
@@ -104,7 +104,7 @@ export default function Introduction() {
     return (
         <Intro>         
             <div>
-                <h1>Rakshith Raj G P</h1>                
+                <h1>Rakshith Raj Gurupura Puttaraju</h1>                
             </div>
 
             <div>

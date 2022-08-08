@@ -15,7 +15,7 @@ const theme = {
     },
     margin:"10px",
     fontSize:{
-      h1:"4.5rem",
+      h1:"2.8rem",
       h2:"1.7rem",
       h3:"1.28rem",
       h4:"1rem",
