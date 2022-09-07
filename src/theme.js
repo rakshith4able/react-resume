@@ -20,6 +20,7 @@ const theme = {
       h3:"1.28rem",
       h4:"1.2rem",
       h5:"1.25rem",
+      h6:"1.15rem",
       logo:"4rem"
     }
   };

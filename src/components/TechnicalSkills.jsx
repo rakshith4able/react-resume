@@ -69,7 +69,7 @@ const Skill = styled.div`
     color: ${(props) => props.theme.primary};
     background: ${(props) => props.theme.secondary};
     width: 100%;
-    font-size: ${(props) => props.theme.fontSize.h5};
+    font-size: ${(props) => props.theme.fontSize.h6};
     font-weight: 500;
     text-align: center;
     padding: ${(props) => props.theme.padding.l} ${(props) => props.theme.padding.l};
