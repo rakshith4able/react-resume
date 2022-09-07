@@ -72,8 +72,7 @@ const Skill = styled.div`
     font-size: ${(props) => props.theme.fontSize.h5};
     font-weight: 500;
     text-align: center;
-    padding: ${(props) => props.theme.padding.l}
-      ${(props) => props.theme.padding.l};
+    padding: ${(props) => props.theme.padding.l} ${(props) => props.theme.padding.l};
     /* border-radius: ${(props) => props.theme.padding.l}; */
   }
 `;
@@ -126,7 +125,7 @@ export default function TechnicalSkills() {
             </Skill>
             <Skill>
               <SiMaterialui />
-              <h3>MaterialUI</h3>
+              <h3>MUI</h3>
             </Skill>
           </Skills>
         </Languages>

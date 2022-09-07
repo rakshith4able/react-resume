@@ -48,7 +48,7 @@ export default function Experience() {
           <p>Cloudside Technologies, Bengaluru</p>
         </Role>
         <Duration>
-          <Badge style={{ width: "113px", textAlign: "center" }}>
+          <Badge style={{ width: "135px", textAlign: "center" }}>
             Dec 2021- Present
           </Badge>
         </Duration>
@@ -69,7 +69,7 @@ export default function Experience() {
           <p>ATEU Softwares, Mysuru</p>
         </Role>
         <Duration>
-          <Badge style={{ width: "113px", textAlign: "center" }}>
+          <Badge style={{ width: "135px", textAlign: "center" }}>
             Aug 2020 - Sept 2020
           </Badge>
         </Duration>
